@@ -1,3 +1,18 @@
+"""
+You are given an array of integers nums, there is a sliding window of size k which is moving from the very left
+of the array to the very right. You can only see the k numbers in the window.
+Each time the sliding window moves right by one position.
+Return the max sliding window.
+
+>>> maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3)
+[3, 3, 5, 5, 6, 7]
+>>> maxSlidingWindow([2, 3, 9], 2)
+[3, 9]
+>>> maxSlidingWindow([1], 1)
+[1]
+"""
+
+
 from typing import List
 
 
@@ -21,4 +36,15 @@ def maxSlidingWindow(nums: List[int], k: int) -> list[float]:
     return ans
 
 
-print(*maxSlidingWindow([2, 3, 9], 3))
+"""
+Объяснение алгоритма:
+Используем два стека, добавляем в первый стек значения (значение из массива, максимальное значение стека на данный момент)
+Как только первый стек будет длиной k + 1 (потому что нулевой элемент мы добавили заранее),
+Мы достаём из него поочереди элементы и аналогичным образом добавляем (значение на данный момент, максимальное значение)
+во второй стек, пока в первом не останется один элемент.
+Когда у нас сумма длин первого и второго стека становится равна k + 2 (мы наполнили окно), 
+то мы выбираем максимум среди значений стеков, добавляем в ответ и удаляем значение из второго стека, 
+если его длина больше 1
+
+Для реализации минимума в окне, нужно заменить все функции max на min
+"""
