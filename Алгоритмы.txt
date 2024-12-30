@@ -1,9 +1,9 @@
 Решето Эратосфена для нахождения всех простых чисел от 1 до n - 204
 Наибольшая возрастающая подпоследовательность - 300
-Floyd's cycle detection algorithm
-Minimum Size Subarray Sum
-And чисел на отрезке
-Xor чисел на отрезке
+Floyd's cycle detection algorithm - 141
+Minimum Size Subarray Sum - 209
+And чисел на отрезке - 201
+Xor чисел на отрезке - nan
 Обход дерева в глубину
 Обход дерева в ширину
 Варианты хранения деревьев
