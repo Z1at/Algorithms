@@ -41,7 +41,6 @@ quick_sort - nan
 Дп о кузнечике - https://stepik.org/lesson/307326/step/3?unit=289414
 Встроенный бинарный поиск - nan
 Максимальный xor двух чисел в массиве - 421
-
 Алгоритм Джея Кадане - https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 Нахождение последней цифры большого числа фибоначчи - https://stepik.org/lesson/13228/step/7?unit=3414
 Огромное число Фибоначчи по модулю - https://stepik.org/lesson/13228/step/8?unit=3414
@@ -55,7 +54,6 @@ quick_sort - nan
 Алгоритм нахождения кратчайшего расстояния в неориентированном графе (с помощью BFS)
 Подсчёт количества инверсий в массиве
 Hamming distances between all the pairs of the integers in nums.
-Когда две точки лежат на одной прямой
 Когда три точки лежат на одной прямой
 Получить заданное число, сложив какое-то количество чисел из массива
 lru_cache
